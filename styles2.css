@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: black;
+    color: baby pink;
+}
+
+nav {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: Red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background: Pink;
+}
+
+.cta-button {
+    background: #61dafb;
+    color: #282c34;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #21a1f1;
+}
+
+.hero {
+    background: Blue;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.features, .pricing, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .feature-item, .pricing .pricing-plan {
+    margin: 20px 0;
+}
+
+.pricing-plan {
+    display: inline-block;
+    width: 30%;

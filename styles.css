@@ -1,0 +1,167 @@
+/* General Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+}
+
+/* Link Styling */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header .tagline {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: grey;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: beige;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Section Headers */
+section h2 {
+    border-bottom: 3px solid #007BFF;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Skills Section */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e9ecef;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* Resume Section */
+#resume a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.125rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-photo {
+        margin-bottom: 1rem;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
